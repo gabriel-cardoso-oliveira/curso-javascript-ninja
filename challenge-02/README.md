@@ -43,7 +43,7 @@ Crie uma função com as seguintes características:
 3. O retorno da função deve ser a multiplicação dos 3 argumentos, somando `2` ao resultado da multiplicação.
 */
 function multiplicacao(x, y, z) {
-    if ((!x && x !== 0) || (!y && y !== 0) || (!z && z !== 0)) {
+    if (x === undefined || y === undefined || z === undefined) {
         return 'Preencha todos os valores corretamente!';
     }
 
@@ -72,11 +72,11 @@ Crie uma função com as seguintes características:
 6. E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
 */
 function testarCondicoes(x, y, z) {
-    if ((!x && x !== 0) && (!y && y !== 0) && (!z && z !== 0)) {
+    if (x === undefined && y === undefined && z === undefined) {
         return false;
     } else {
-        if ((!y && y !== 0) && (!z && z !== 0)) return x;
-        if (!z && z !== 0) return x + y;
+        if (y === undefined && z === undefined) return x;
+        if (z === undefined) return x + y;
         if (x || x === 0) return (x + y) / z;
         return null;
     }
