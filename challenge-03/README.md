@@ -90,19 +90,19 @@ pessoa.nomeCompleto() // 'Olá! Meu nome é Gabriel Cardoso'
 Qual a idade da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-pessoa.idade // 22
+pessoa.mostrarIdade() // Olá, eu tenho 22 anos!
 
 /*
 Qual o peso da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-pessoa.peso // 79
+pessoa.mostrarPeso() // Eu peso 79Kg
 
 /*
 Qual a altura da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-pessoa.altura // 1.75
+pessoa.mostrarAltura() // Minha altura é 1.75m.
 
 /*
 Faça a `pessoa` fazer 3 aniversários.
@@ -116,7 +116,7 @@ Quantos anos a `pessoa` tem agora? (Use a instrução para responder e
 comentários inline ao lado da instrução para mostrar qual foi a resposta
 retornada)
 */
-pessoa.idade // 25
+pessoa.mostrarIdade() // Olá, eu tenho 25 anos!
 
 /*
 Agora, faça a `pessoa` caminhar alguns metros, invocando o método `andar` 3x,
